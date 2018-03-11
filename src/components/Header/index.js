@@ -23,7 +23,6 @@ const styles = {
   elementsContainer: {
     display: 'flex',
     justifyContent: 'space-between',
-
   },
   iconButton: {
     color: 'white',

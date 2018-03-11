@@ -20,6 +20,7 @@
     "no-underscore-dangle": 0,
     "react/no-array-index-key": 0,
     "react/jsx-boolean-value": 0,
-    "no-plusplus" : 0
+    "no-plusplus" : 0,
+    "react/no-did-mount-set-state": 0
   }
 }

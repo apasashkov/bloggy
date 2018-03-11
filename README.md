@@ -21,3 +21,8 @@ Execute the following commands in terminal to start:
 * Redux
 * Material UI
 * Webpack
+* Code splitting
+
+## Next Release Plans:
+* Migrate CSS to Styled Components/SCSS
+* Use Redux-Thunk

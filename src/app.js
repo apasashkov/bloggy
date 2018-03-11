@@ -2,7 +2,6 @@ import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
 import Reboot from 'material-ui/Reboot';
-import './app.css';
 
 import AppRouter from './routes/AppRouter';
 import configureStore from './store/configureStore';

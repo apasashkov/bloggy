@@ -2,11 +2,12 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    app: './src/app.js',
+    app: ['babel-polyfill', './src/app.js'],
   },
   output: {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js',
+    chunkFilename: '[name].bundle.js',
   },
   module: {
     rules: [
@@ -26,5 +27,6 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, 'public'),
     historyApiFallback: true,
+    publicPath: '/',
   },
 };

@@ -1,11 +1,15 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import React from 'react';
 
-import DashBoard from '../containers/DashBoard/';
+import async from '../components/utils/async';
+
 import Header from '../components/Header/';
 import NotFoundPage from '../components/NotFoundPage';
-import Post from '../components/Post';
+import DashBoard from '../containers/DashBoard/';
 import CreatePostForm from '../components/CreatePostForm';
+
+// code splitting for Post component
+const Post = async(() => import(/* webpackChunkName: "post" */ '../components/Post'));
 
 class AppRouter extends React.Component {
   componentDidMount = () => {

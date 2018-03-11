@@ -10,7 +10,7 @@
 ## INSTALLATION:
 Execute the following commands in terminal to start:
 
-	?????git clone https://github.com/apasashkov/treasy-client.git
+	git clone https://github.com/apasashkov/bloggy.git
 
 	npm install
 
